@@ -1,0 +1,11 @@
+{
+    "name": "inam925/hello-composer-package",
+    "description": "A hello world composer private package.",
+    "autoload": {
+        "psr-4": {
+            "inam925\\HelloWorldPackage\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
